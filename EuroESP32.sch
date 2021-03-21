@@ -2814,7 +2814,7 @@ Added bigger pads to the TO-92 package</description>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="C1" library="parts_aman" deviceset="CAPACITOR" device="1210" value="10uF"/>
 <part name="C6" library="parts_aman" deviceset="CAPACITOR" device="1210" value="10uF"/>
-<part name="IC6" library="adafruit" deviceset="78*" device="T" technology="05"/>
+<part name="IC6" library="adafruit" deviceset="78*" device="DT" technology="05" value="7805DT"/>
 </parts>
 <sheets>
 <sheet>
