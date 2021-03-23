@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.4" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -165,6 +165,7 @@
 <wire x1="30" y1="108" x2="30" y2="0" width="0.1524" layer="20"/>
 <wire x1="30" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="108" width="0.1524" layer="20"/>
+<text x="27.54" y="101.2" size="1.016" layer="25" rot="R270">EuroESP32 artheist, mrtof, alx1 v.01 Navrouz 2021</text>
 </plain>
 <libraries>
 <library name="parts_aman">
