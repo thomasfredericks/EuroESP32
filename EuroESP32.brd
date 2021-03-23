@@ -1091,16 +1091,16 @@ TS-003</description>
 <attribute name="NAME" x="13.95" y="86.7025" size="0.508" layer="26" font="vector" ratio="16" rot="MR180" align="center"/>
 </element>
 <element name="P4" library="parts_aman" package="POWER_10" value="POWER_SIMPLE10" x="16.015" y="4.028" smashed="yes" rot="MR180" grouprefs="POWER_IN"/>
-<element name="D1" library="parts_aman" package="SOD123" value="" x="16.435" y="8.065" smashed="yes" rot="MR180" grouprefs="POWER_IN">
+<element name="D1" library="parts_aman" package="SOD123" value="1N5819HW" x="16.435" y="8.065" smashed="yes" rot="MR180" grouprefs="POWER_IN">
 <attribute name="NAME" x="13.26" y="8.065" size="0.508" layer="26" font="vector" ratio="16" rot="MR270" align="center"/>
 </element>
-<element name="D2" library="parts_aman" package="SOD123" value="" x="9.015" y="8.045" smashed="yes" rot="MR180" grouprefs="POWER_IN">
+<element name="D2" library="parts_aman" package="SOD123" value="1N5819HW" x="9.015" y="8.045" smashed="yes" rot="MR180" grouprefs="POWER_IN">
 <attribute name="NAME" x="5.84" y="8.045" size="0.508" layer="26" font="vector" ratio="16" rot="MR270" align="center"/>
 </element>
-<element name="F1" library="parts_aman" package="R0805" value="FERRITE-BEAD0805" x="15.645" y="10.195" smashed="yes" rot="MR0" grouprefs="POWER_IN">
+<element name="F1" library="parts_aman" package="R0805" value="Würth Electronics 742792664" x="15.645" y="10.195" smashed="yes" rot="MR0" grouprefs="POWER_IN">
 <attribute name="NAME" x="17.55" y="10.195" size="0.508" layer="26" font="vector" ratio="16" rot="MR90" align="center"/>
 </element>
-<element name="F2" library="parts_aman" package="R0805" value="FERRITE-BEAD0805" x="11.295" y="10.065" smashed="yes" rot="MR0" grouprefs="POWER_IN">
+<element name="F2" library="parts_aman" package="R0805" value="Würth Electronics 742792664" x="11.295" y="10.065" smashed="yes" rot="MR0" grouprefs="POWER_IN">
 <attribute name="NAME" x="9.39" y="10.065" size="0.508" layer="26" font="vector" ratio="16" rot="MR90" align="center"/>
 </element>
 <element name="C39" library="parts_aman" package="1206_POL" value="22uF" x="15.525" y="12.315" smashed="yes" rot="MR180" grouprefs="POWER_IN">

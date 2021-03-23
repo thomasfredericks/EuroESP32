@@ -2800,10 +2800,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C24" library="parts_aman" deviceset="CAPACITOR" device="0805" value="10uF"/>
 <part name="GND26" library="parts_aman" deviceset="GND" device=""/>
 <part name="P4" library="parts_aman" deviceset="POWER_SIMPLE" device="10"/>
-<part name="D1" library="parts_aman" deviceset="DIODE" device=""/>
-<part name="D2" library="parts_aman" deviceset="DIODE" device=""/>
-<part name="F1" library="parts_aman" deviceset="FERRITE-BEAD" device="0805" value="FERRITE-BEAD0805"/>
-<part name="F2" library="parts_aman" deviceset="FERRITE-BEAD" device="0805" value="FERRITE-BEAD0805"/>
+<part name="D1" library="parts_aman" deviceset="DIODE" device="" value="1N5819HW"/>
+<part name="D2" library="parts_aman" deviceset="DIODE" device="" value="1N5819HW"/>
+<part name="F1" library="parts_aman" deviceset="FERRITE-BEAD" device="0805" value="Würth Electronics 742792664"/>
+<part name="F2" library="parts_aman" deviceset="FERRITE-BEAD" device="0805" value="Würth Electronics 742792664"/>
 <part name="P+4" library="parts_aman" deviceset="+12V" device=""/>
 <part name="P-2" library="parts_aman" deviceset="-12V" device=""/>
 <part name="GND35" library="parts_aman" deviceset="GND" device=""/>
@@ -2916,7 +2916,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="241.3" y="86.36" size="1.778" layer="97" grouprefs="CV_IN">ADC IN -5V to +5V TO MCU 0V to +3V3</text>
+<text x="241.3" y="86.36" size="1.778" layer="97" grouprefs="CV_IN">ADC IN -5V to +5V TO MCU +3V3 to 0V (INVERTED)</text>
 </plain>
 <instances>
 <instance part="C31" gate="G$1" x="60.96" y="-38.1" smashed="yes" grouprefs="POWER_REGULATION">
